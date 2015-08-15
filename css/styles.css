@@ -1,0 +1,198 @@
+/*html {*/
+ 
+
+.nav h1, p {
+    color: black;
+    margin-left: 30px;
+}
+.col-md-4 p {
+    color: black;
+    padding-left: 0px;
+    margin-left: auto;
+}
+body {
+    font-family: cabin, sans-serif;
+     position: relative;
+}
+
+/*Navigation */
+/*Navigation */
+
+  .nav, .navbar-nav, .navbar{
+    background-color:transparent;
+    z-index: 100%;
+    width: 100%;
+    margin-left: 0%;
+    color: black;
+/*    position: fixed;*/
+    }  
+
+#logo {
+    color: black;
+}
+.nav ul li{
+    
+    letter-spacing: 0.05em;
+   color: white;
+    
+}
+.
+.nav li a:hover {
+    
+    text-decoration: none;
+    color: white;
+}
+.nav a {
+    transition: color 600ms;
+    -webkit-transition: color 600ms;
+    color: white;
+    text-transform: uppercase;
+}
+    
+.carousel-caption {
+   position: absolute;
+    top: 43%;
+    display: inline-block;
+    z-index: 10;
+    }
+.carousel-caption h1 {
+    font-size: 4em;
+}
+.row {
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.image-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/*Intro*/
+#intro {
+    padding-bottom: 20%;
+    z-index: -100%;}
+
+#intro, .jumbotron, #about, #unito{
+    background-color:#FFD300;
+   }
+.jumbotron{
+    padding-top: 5%;
+    }
+#logo{  
+    padding-top:20%;
+    padding-left: 2%;
+    text-align: center;
+    color: black;
+}
+.jumbotron a:hover {
+    text-decoration: none;
+}
+
+    
+/*MEDIA QUERIES*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+    @media (max-width: 480px) { #fila {
+    margin-top: 100px;
+  } }
+
+/* Medium devices (desktops, 992px and up) */
+    @media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+    @media (min-width: @screen-lg-min) { ... }
+/*END MEDIA QUERIES*/
+
+/*ABOUT SECTION*/
+
+.row {
+    padding-top: 3%;
+}
+
+/*PORTFOLIO SECTION*/
+    #unito {
+    background-image: url("../img/bagliori.jpg");
+    background-size: auto;
+    padding-bottom: 5%;
+}
+    #portfolio {
+    padding-bottom: 3%;
+        padding-top: 3%;
+        z-index: -50%;
+}
+    #fila {
+    background-color: aliceblue;
+ padding-top: 6%;
+    padding-bottom: 4%;
+    margin-top: 4%;
+        z-index: -50%;
+    }
+    #pezza1 {
+  float: left;
+}
+    #pezza2 {
+    float: right;
+}
+/*END PORTFOLIO SECTION*/
+
+
+/*FAQ ACCORDION*/
+    #about {
+     
+     
+     width: 100%;
+     padding-top: 8%;
+     padding-left: 2%;
+     padding-right: 2%;
+    }
+    #faq {
+    padding-bottom: 4%;
+}  
+    .panel-default, .panel-heading {
+	color: black;
+	padding-left: 6%;
+    padding-bottom: 2%;
+    background-color: #FFD300;
+    }
+    .panel-title a{
+    text-decoration:none;
+    
+}
+    #ultimo a {
+    color: black;
+}
+    #ultimo a:hover {
+    color: blue;
+}
+/*END FAQ ACCORDION*/
+
+/*CONTACT Section*/
+    #contact {
+    padding-top: 4%;
+        padding-bottom: 20%;
+        background-color: #BFB8AF;
+    }
+/*END CONTACT Section*/
+
+/*FOOTER*/
+#back{
+    padding-left:10%;
+    padding-bottom: 1%;
+    background-color: #BFB8AF;
+}
+span.glyphicon-menu-up{
+    font-size: 4em;
+    color: black;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 1%;
+    }
+
+    
